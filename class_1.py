@@ -42,7 +42,7 @@ class Item:
         """
         Will count out the floats that are equal to zero.
         : param num: will get a number and anilyze if it's float point is == 0
-        : return: True if a number is an integer and False if not
+        : return: True if a number is an integer and if the float is zero, otherwise will return False if it's a float
         """
         if isinstance(num, float):
             # Counts out the floats that are point zero
